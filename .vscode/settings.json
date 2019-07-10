@@ -1,0 +1,7 @@
+{
+"files.associations":{"*.m": "matlab"},
+"[matlab]": {"files.encoding": "gb2312"},
+"matlab.mlintpath": "E:\\Program Files (x86)\\Matlab\\R2015b\\bin\\win64\\mlint.exe",
+"matlab.linterConfig" : "path-to-linter-config-file",
+}
+
