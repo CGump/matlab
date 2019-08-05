@@ -9,18 +9,18 @@ function switch_learning(input)
 %   而且case、otherwise的顺序，可以随意分配
 %   if语句则需要从上往下依次进行判断，不可以先else，再ifelse
     switch(input)
-    case 'A' 
-        fprintf('Excellent!\n');
-    case 'B' 
-        fprintf('Good job\n');
-    case 'C' 
-        fprintf('Well done\n');
-    case 'D'
-        fprintf('You passed\n');
-    case 'F' 
-        fprintf('Better try again\n');
-    otherwise
-        fprintf('Invalid grade\n');
+        case 'A' 
+            fprintf('Excellent!\n');
+        case 'B' 
+            fprintf('Good job\n');
+        case 'C' 
+            fprintf('Well done\n');
+        case 'D'
+            fprintf('You passed\n');
+        case 'F' 
+            fprintf('Better try again\n');
+        otherwise
+            fprintf('Invalid grade\n');
     end
     % rst = 0;
 end
